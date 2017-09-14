@@ -15,7 +15,7 @@
       exit 0
   fi
 
-  GITURL='https://github.com/vnsavage/servermattic.git'
+  GITURL='https://github.com/kovshenin/servermattic.git'
 
   function get_metadata {
     eth0=eth0
