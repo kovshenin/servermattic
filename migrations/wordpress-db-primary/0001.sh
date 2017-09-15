@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Setup MySQL
+PATH=$PATH:/usr/local/mysql/bin/
 ln -sf /etc/mysql-initscripts/mysql-5.6 /etc/init.d/mysql1-0
 
 mkdir -p /var/log/mysql1-0
