@@ -10,6 +10,6 @@ cd /usr/local/mysql5.6/
 chown -R mysql.mysql /var/lib/mysql1-1
 /etc/init.d/mysql1-1 start
 /usr/local/mysql/bin/mysqladmin --defaults-file=/etc/mysql/mysql1-1.cnf -u root password '9^Ng~$X?kWGytn3t'
-mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -pgod -e "create user 'wp'@'localhost' IDENTIFIED BY '24qTDLAH]hv2dM';"
-mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -pgod -e "create database wp;"
-mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -pgod -e "GRANT ALL ON wp.* TO 'wp'@'localhost';"
+mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -p'9^Ng~$X?kWGytn3t' -e "create user 'wp'@'localhost' IDENTIFIED BY '24qTDLAH]hv2dM';"
+mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -p'9^Ng~$X?kWGytn3t' -e "create database wp;"
+mysql --defaults-file=/etc/mysql/mysql1-1.cnf -u root -sN  -p'9^Ng~$X?kWGytn3t' -e "GRANT ALL ON wp.* TO 'wp'@'%';"
