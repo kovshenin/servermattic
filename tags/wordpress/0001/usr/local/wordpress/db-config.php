@@ -1,7 +1,7 @@
 $wpdb->add_database( array(
     'host'     => 'db1.g1.gm.a8c.com:3306',
-    'user'     => 'wordpress',
-    'password' => 'drupal',
+    'user'     => 'wp',
+    'password' => '24qTDLAH]hv2dM',
     'name'     => 'wp',
     'write'    => 1,
     'read'     => 1,
@@ -10,8 +10,8 @@ $wpdb->add_database( array(
 ) );
 $wpdb->add_database( array(
     'host'     => 'db2.g1.gm.a8c.com:3306',
-    'user'     => 'wordpress',
-    'password' => 'drupal',
+    'user'     => 'wp',
+    'password' => '24qTDLAH]hv2dM',
     'name'     => 'wp',
     'write'    => 0,
     'read'     => 1,
