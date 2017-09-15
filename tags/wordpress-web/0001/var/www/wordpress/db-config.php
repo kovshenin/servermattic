@@ -1,3 +1,4 @@
+<?php
 $wpdb->add_database( array(
     'host'     => 'db1.g1.gm.a8c.com:3306',
     'user'     => 'wp',
