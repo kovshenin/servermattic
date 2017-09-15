@@ -3,5 +3,5 @@
 # Servers in Whistler
 FRI-123:YVR:192.0.95.212:web1.g1.gm.a8c.com:192.0.95.212:nginx-base,nginx-php,wordpress-web,wordpress-lb:0:
 FRI-124:YVR:192.0.95.221:web2.g1.gm.a8c.com:192.0.95.221:nginx-base,nginx-php,wordpress-web,wordpress-lb:0:
-FRI-125:YVR:192.0.95.213:db1.g1.gm.a8c.com:192.0.95.213:mysql-base,wordpress-db,wordpress-db-0:0:
-FRI-126:YVR:192.0.95.214:db2.g1.gm.a8c.com:192.0.95.214:mysql-base,wordpress-db,wordpress-db-1:0:
+FRI-125:YVR:192.0.95.213:db1.g1.gm.a8c.com:192.0.95.213:mysql-base,wordpress-db,wordpress-db-primary:0:
+FRI-126:YVR:192.0.95.214:db2.g1.gm.a8c.com:192.0.95.214:mysql-base,wordpress-db,wordpress-db-replica:0:
