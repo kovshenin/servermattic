@@ -16,4 +16,5 @@ chown -R mysql.mysql /var/lib/mysql1-0
 /etc/init.d/mysql1-0 start
 /usr/local/mysql/bin/mysqladmin --defaults-file=/etc/mysql/mysql1-0.cnf -u root password 'god'
 mysql --defaults-file=/etc/mysql/mysql1-0.cnf -u root -sN  -pgod -e "create user 'wp'@'localhost' IDENTIFIED BY 'drupal';"
+mysql --defaults-file=/etc/mysql/mysql1-0.cnf -u root -sN  -pgod -e "create database wp;"
 mysql --defaults-file=/etc/mysql/mysql1-0.cnf -u root -sN  -pgod -e "GRANT ALL ON wp.* TO 'wp'@'localhost';"
